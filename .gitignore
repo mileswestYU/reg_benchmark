@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.o
+*.so
+*.egg
+build/
+dist/
+*.pth
+*.pth.tar
+*.ckpt
