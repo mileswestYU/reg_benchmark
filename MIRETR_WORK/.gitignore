@@ -1,0 +1,25 @@
+# Local Git metadata backups and downloaded runtime assets
+/backups/
+/datasets/
+/outputs/
+/weights/
+
+# Build products and caches in the MIRETR source tree
+__pycache__/
+*.py[cod]
+*.o
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Model checkpoints and generated result files
+*.pth
+*.pth.tar
+*.ckpt
+*.npz
+*.log
+
+# Local copies made before environment fixes
+*.before_*
